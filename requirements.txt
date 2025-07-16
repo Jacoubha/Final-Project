@@ -1,0 +1,21 @@
+# Core Data Science Libraries
+pandas>=1.5.0
+numpy>=1.22.0
+seaborn>=0.12.0
+matplotlib>=3.6.0
+joblib>=1.2.0
+
+# Machine Learning Framework
+scikit-learn>=1.2.0
+
+# Encoders
+category-encoders>=2.5.0
+
+# XGBoost
+xgboost>=1.7.0
+
+# Performance Measurement
+timeit>=1.0.0
+
+# Optional (for virtual environment)
+python-dotenv>=0.21.0
