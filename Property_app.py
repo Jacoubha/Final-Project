@@ -110,14 +110,5 @@ with tabs[1]:
 
     if st.button("Predict Price"):
         input_df = pd.DataFrame([user_input])
-        try:
-            pred = pipeline.predict(input_df)[0]
-            st.success("✅ Price Predict" if pred != 0 else "Price Unkown")
-            print(pred)
-
-            st.download_button("📥 Download This Prediction", 
-                               data=input_df.to_csv(index=False), 
-                               file_name="prediction_result.csv", mime="text/csv")
-
-        except Exception as e:
-            st.error(f"Prediction failed: {e}")
+        pred = pipeline.predict(input_df)[0]
+        st.title(pred)
