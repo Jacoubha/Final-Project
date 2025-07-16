@@ -7,3 +7,4 @@ timeit
 scikit-learn
 xgboost
 category-encoders
+plotly.express
