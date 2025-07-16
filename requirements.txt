@@ -1,4 +1,3 @@
-# Core Data Science Libraries
 pandas
 numpy
 seaborn
