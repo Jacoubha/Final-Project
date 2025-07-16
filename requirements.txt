@@ -1,10 +1,4 @@
 pandas
-numpy
 seaborn
 matplotlib
-joblib
-timeit
-scikit-learn
-xgboost
-category-encoders
 plotly
