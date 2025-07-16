@@ -5,6 +5,10 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 import seaborn as sns
 import joblib
+import os
+
+
+
 
 st.set_page_config(page_title='Property', layout='wide')
 
@@ -64,8 +68,8 @@ with tabs[0]:
 
 with tabs[1]:
     st.title("🤖 Property Price Prediction Model")
-
-    pipeline_Pre = joblib.load('pipeline_Pre.joblib')
+    pipeline_path = os.path.abspath("pipeline_Pre.h5")  
+    pipeline_Pre = joblib.load(pipeline_path)
     pipeline = joblib.load('model.model')
     CondoProject = joblib.load('CondoProject.List')
     District = joblib.load('District.List')
