@@ -2,10 +2,8 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-
-
 import joblib
-import os
+
 
 
 
@@ -68,8 +66,7 @@ with tabs[0]:
 
 with tabs[1]:
     st.title("🤖 Property Price Prediction Model")
-    pipeline_path = os.path.abspath("pipeline_Pre.joblib")  
-    pipeline_Pre = joblib.load(pipeline_path)
+    pipeline_Pre = joblib.load('pipeline_Pre.joblib')
     pipeline = joblib.load('model.model')
     CondoProject = joblib.load('CondoProject.List')
     District = joblib.load('District.List')
