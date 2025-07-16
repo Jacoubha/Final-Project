@@ -2,5 +2,4 @@ pandas
 
 plotly
 joblib
-scikit-learn
 os
