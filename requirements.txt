@@ -1,7 +1,7 @@
 pandas
 plotly
 joblib
-xgboost
+
 scikit-learn == 1.6.1
-pathlib
-category-encoders 
+
+
