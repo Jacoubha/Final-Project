@@ -1,8 +1,6 @@
 pandas
-seaborn
-matplotlib
+
 plotly
 joblib
 scikit-learn
-category_encoders
 os
