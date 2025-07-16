@@ -3,3 +3,4 @@ plotly
 joblib
 xgboost
 scikit-learn
+pathlib
